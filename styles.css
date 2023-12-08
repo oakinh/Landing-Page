@@ -87,7 +87,7 @@ body {
 
 .box-container {
     display: flex;
-    gap: 30px;
+    gap: 50px;
 }
 
 .box-small-container{
@@ -96,24 +96,70 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 120px;
+    max-width: 160px;
     text-align: center;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border: 2px solid #3882F6;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
     border-radius: 6px;
 }
 
-.subtext {
-    padding: 10px;
-    margin: 10px;
+.bottom-content-background {
+    background-color: #E5E7EB;
+    padding: 120px;
+    display: flex;
+    justify-content: center;
+
 }
 
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-credit {
+    font-weight: 900;
+    font-size: 18px;
+    text-align: right;
+    padding: 16px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 120px;
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex: 0;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.call-child-header {
+    font-weight: 900;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.call-child-text {
+    font-size: 16px;
+    color: #E5E7EB;
+}
 
 ul {
     list-style-type: none;
@@ -126,7 +172,7 @@ a {
     margin: 8px;
 }
 
-button {
+.button1 {
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: 900;
@@ -135,5 +181,17 @@ button {
     height: 32px;
     border: none;
     margin-top: 8px;
+    flex: none;
+}
+
+.button2 {
+    color:#F9FAF8;
+    background-color: #3882F6;
+    font-weight: 900;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 112px;
+    height: 40px;
+    border: 1px solid #F9FAF8;
     flex: none;
 }
