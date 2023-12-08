@@ -115,6 +115,8 @@ body {
 .bottom-content-background {
     background-color: #E5E7EB;
     padding: 120px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
 
